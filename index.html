@@ -8,15 +8,15 @@
 <body>
     <p><h3>Random String Generator</h3></p>
     <div>
-        String should be <input type="text" id="firstInput"> characters long.
+        String should be <input type="text" id="firstInput" value="10"> characters long (1-10).
     </div><br>
-    <div>
+    <div class="field">
         Which characters are allowed to occur in the strings?<br>
-        <input type="checkbox" name="numeric"> Numeric digits (0-9)<br>
-        <input type="checkbox" name="uppercase"> Uppercase letters (A-Z)<br>
-        <input type="checkbox" name="lowercase"> Lowercase letters (a-z)<br>
-        <input type="submit" value="Generate"><hr>
-        Result:
+        <input type="checkbox" id="numeric"> Numeric digits (0-9)<br>
+        <input type="checkbox" id="uppercase"> Uppercase letters (A-Z)<br>
+        <input type="checkbox" id="lowercase"> Lowercase letters (a-z)<br>
+        <input type="submit" class="btn" value="Generate"><hr>
+        Result: <input type="text" id="result">
     </div>
     <script src="script.js"></script>
 </body>
